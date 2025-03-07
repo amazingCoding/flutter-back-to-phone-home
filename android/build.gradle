@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 31
+    namespace "io.xdag.plugin.back_to_home"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
